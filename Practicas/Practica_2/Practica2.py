@@ -31,7 +31,6 @@ puntos_totales = puntos_actuales
 
 print(f"Hola {nombre_asociado} a continuacion te dare tus datos:\nNumero asociado: {numero_asociado}.\nPuntos totales en tu cuenta: {puntos_totales}.\n")
 
-
 numerador = 874
 denominador = 27
 

@@ -38,34 +38,33 @@ apellido = input("Escribe tu apellido: ")
 print(f"Hola, {nombre} {apellido} \n")
 
 #Practica de Variables 
-print("Praactica de Variables \n")
+print("Practica de Variables \n")
 
 #Practicas con Variables 1
 
 nombre = "Tony Soprano"
 edad = 51 
 
-#Practicas con variables 2
+# #Practicas con variables 2
 
 nombre = "Julia"
 apellido = "Roberts"
-nombrecompleto = ((nombre) + " " + str(apellido))
+nombrecompleto = ((nombre) + " " + (apellido))
 print(nombrecompleto + "\n")
 
 #Practicas con Varables 3
 
 curso = "Python" 
-print("Estas tomando un curso de" + " " + str(curso))
+#print("Estas tomando un curso de" + " " + (curso))
 print("Estas tomando un curso de" + " " + curso + "\n")
 
 #Practica con Integers 
-
 print("Practica con Integers")
+
 num_entero = 7
 print(type(num_entero), "\n")
 
 #Practica con Floats 
-
 print("Practica con Floats")
 
 num_decimal = 3.141592653
