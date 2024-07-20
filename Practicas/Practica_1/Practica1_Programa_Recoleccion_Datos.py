@@ -1,3 +1,5 @@
+import time
+
 def imprimir_recuadro(texto):
   lines = texto.split('\n')
   max_length = max(len(lines) for lines in lines)
@@ -38,3 +40,5 @@ texto = (
 )
 
 imprimir_recuadro(texto)
+
+time.sleep(5)
