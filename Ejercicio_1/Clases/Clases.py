@@ -62,3 +62,9 @@ def main():
             cantidad = int(input("Ingrese la cantidad del juguete: "))
             juguete = Juguete(nombre, categoria, precio, cantidad)
             almacen.agregarJuguete(juguete) 
+            print(f"Juguete:  {nombre} agregado")
+            
+        elif opcion == 2:
+            nombre = input("Ingresar el nombre del juguete")
+            almacen.eliminarJuguete(juguete)
+            print(f"Juguete: {nombre} eliminado")
