@@ -121,7 +121,7 @@ DELETE FROM Clientes
 WHERE id_cliente = 1;
 
 
-
+CREATE DATABASE IF NOT exists
 	
 
 
